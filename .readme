@@ -1,0 +1,13 @@
+what you need :
+    1 - "pip install social-auth-app-django" , package
+    
+    2 - facebook needs https , for that "django install django-sslserver"
+    
+    3 - copy whole settings.py folder
+    
+    4 - to sun server --> 'python manage.py runsslserver localhost:8000'
+    
+    
+    5 - dont forget model inheritance from abstract user
+        
+          
