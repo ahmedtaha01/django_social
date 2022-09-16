@@ -1,0 +1,12 @@
+{{ form }}
+
+
+<a href="{% url 'social:begin' 'facebook' %}">facebook</a>
+
+
+{% for key,value in request.session.items %}
+{{ key }}:{{ value }} <br>
+
+{%endfor%}
+
+<a href="{% url 'logout' %}">out</a>
